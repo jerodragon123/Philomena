@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Philomena</title>
+    <link rel="stylesheet" href="css/philomena.css"/>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+    <div class="content">
+       <form name="registreren" class="form" method='POST' >
+        <p id="pagina_title">Registreren</p>
+        <input type="text" required name="voornaam" placeholder="voornaam"/>
+        <input type="text" required name="achternaam" placeholder="achternaam"/>
+        <input type="text" required name="straat" placeholder="Straat"/>
+        <input type="text" required name="postcode" placeholder="Postcode"/>
+        <input type="text" required name="woonplaats" placeholder="woonplaats"/>
+        <input type="text" required name="email" placeholder="email"/>
+        <input type="password" required name="wachtwoord" placeholder="wachtwoord"/>
+        <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+    <br/>
+    <div class="icon_container">
+        <input type="submit" class="icon" id="submit" name="submit" value="&rarr;"/>
+    </div>
+    <a href="index.php">Terug</a>
+       </form>
+    </div>
+</body>
+</html>
